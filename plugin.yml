@@ -1,0 +1,8 @@
+name: JigSaw
+version: 1.0.0-dev#1
+main: Mcrafters\JigSaw\JigSaw
+api:
+ - 1.13.1
+author: Mcrafters
+authors: [Survingo, xBeastMode, Mcrafters]
+description: From the movie Saw comes the PocketMine-MP trolling plugin JigSaw!
