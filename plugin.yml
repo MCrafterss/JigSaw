@@ -6,3 +6,19 @@ api:
 author: Mcrafters
 authors: [Survingo, xBeastMode, Mcrafters]
 description: From the movie Saw comes the PocketMine-MP trolling plugin JigSaw!
+
+commands:
+ jigsaw:
+  description: "JigSaw Main Command"
+
+permissions:
+ jigsaw.command:
+  default: true
+  description: "Enable all JigSaw Command features"
+  children:
+   jigsaw.command.help:
+    default: true
+    description: "Enable showing the help"
+   jigsaw.command.version:
+    default: true
+    description: "Enable using the version command"
